@@ -8,6 +8,10 @@
             int answer = 0;
 
             // code here
+            for (int i = 1; i<= n; i++)
+            {
+                answer += 3 * i - 1;
+            }
 
             // end
 
@@ -18,7 +22,10 @@
             double answer = 0;
 
             // code here
-
+            for (int i = 1; i <= n; i++)
+            {
+                answer += 1.0 / i;
+            }
             // end
 
             return answer;
@@ -28,7 +35,10 @@
             long answer = 0;
 
             // code here
-
+            for (int i = 0; i<=n;  i++)
+            {
+                answer *= i;
+            }
             // end
 
             return answer;
@@ -38,7 +48,10 @@
             long answer = 0;
 
             // code here
-
+            for (int i=0; i<b;i++)
+            {
+                answer *=0;
+            }
             // end
 
             return answer;
@@ -48,7 +61,14 @@
             int answer = 0;
 
             // code here
-
+            long p=1;
+            int n=1;
+            while (p<=L)
+            {
+                p*=n;
+                n+=3;
+            }
+            answer = n-3;
             // end
 
             return answer;
@@ -88,3 +108,4 @@
     }
 
 }
+
