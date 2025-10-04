@@ -101,8 +101,6 @@
             int answer = 0;
 
             // code here
-            int answer = 0;
-            int sum = 0;
             while (sum < n)
             {
                 answer++;
@@ -118,13 +116,14 @@
             const double R = 6371.0; // радиус Земли, км
 
             // code here
-            double h = 0;
-            doble g = 0;
+            int h = 0;
+            int g = 0;
             while (g <= L)
             {
                 answer +=0.01;
                 h = v * answer;
                 g = Math.Sqrt(2*R*h+h*h);
+            }
             // end
 
             return answer;
@@ -132,6 +131,7 @@
     }
     }
 }
+
 
 
 
