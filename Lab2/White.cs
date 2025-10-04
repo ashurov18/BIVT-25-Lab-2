@@ -78,7 +78,18 @@
             double answer = 0;
 
             // code here
-
+            if (Math.Abs(x)>=1)
+            {
+                return 0;
+            }
+            double s = 1e-4;
+            double t = 1;
+            int n = 0;
+            while (t>=s)
+            {
+                answer += t;
+                n++;
+                t=Math.Pow(x, 2 * n)
             // end
 
             return answer;
@@ -89,7 +100,13 @@
             int answer = 0;
 
             // code here
-
+            int answer = 0;
+            int sum = 0;
+            while (sum < n)
+            {
+                answer++;
+                sum +=answer;
+            }
             // end
 
             return answer;
@@ -100,7 +117,13 @@
             const double R = 6371.0; // радиус Земли, км
 
             // code here
-
+            double h = 0;
+            doble g = 0;
+            while (g <= L)
+            {
+                answer +=0.01;
+                h = v * answer;
+                g = Math.Sqrt(2*R*h+h*h);
             // end
 
             return answer;
@@ -108,4 +131,5 @@
     }
 
 }
+
 
