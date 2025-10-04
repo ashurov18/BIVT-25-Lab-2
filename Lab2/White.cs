@@ -89,9 +89,10 @@
             {
                 answer += t;
                 n++;
-                t=Math.Pow(x, 2 * n)
+                t=Math.Pow(x, 2 * n);
+            }
             // end
-
+            
             return answer;
         }
 
@@ -129,7 +130,8 @@
             return answer;
         }
     }
-
+    }
 }
+
 
 
