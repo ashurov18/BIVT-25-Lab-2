@@ -35,7 +35,7 @@
             long answer = 1;
 
             // code here
-            for (int i = 0; i<=n;  i++)
+            for (int i = 1; i<=n;  i++)
             {
                 answer *= i;
             }
@@ -50,7 +50,7 @@
             // code here
             for (int i=0; i<b;i++)
             {
-                answer *=i;
+                answer *=a;
             }
             // end
 
@@ -60,14 +60,14 @@
         {
             int answer = 0;
             // code here
-            long p=1;
-            int n=1;
-            while (p<=L)
+            long p = 1;
+            int n = 1;
+            while (p <= L)
             {
-                p*=n;
-                n+=3;
+                p *= n;
+                n += 3;
             }
-            answer = n-3;
+            answer = n - 3;
             // end
 
             return answer;
@@ -100,11 +100,12 @@
             int answer = 0;
             int sum = 0;
             // code here
-            while (sum <= 0)
+            while (sum <= n)
             {
                 answer++;
-                sum +=answer;
+                sum += answer;
             }
+            answer --;
             // end
 
             return answer;
@@ -129,6 +130,7 @@
         }
     }
     }
+
 
 
 
