@@ -60,14 +60,14 @@
         {
             int answer = 0;
             // code here
-            long p = 1;
-            int n = 1;
+            int p = 1;
+            int a = 1;
             while (p <= L)
             {
-                p *= n;
-                n += 3;
+                p = p * a;
+                a = a + 3;
             }
-            answer = n - 3;
+            answer = a - 3;
             // end
 
             return answer;
@@ -100,8 +100,7 @@
             int answer = 0;
             // code here
             int sum = 0;
-            answer = 0;
-            while (sum <= n)
+            while (sum < n)
             {
                 answer++;
                 sum += answer;
@@ -130,6 +129,7 @@
         }
     }
     }
+
 
 
 
