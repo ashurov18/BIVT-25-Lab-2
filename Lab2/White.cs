@@ -98,7 +98,7 @@
         public int Task7(int n)
         {
             int answer = 0;
-            int sum = 0
+            int sum = 0;
             // code here
             while (sum <= 0)
             {
@@ -129,6 +129,7 @@
         }
     }
     }
+
 
 
 
