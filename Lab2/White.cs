@@ -120,9 +120,9 @@
             double g = 0;
             while (g < L)
             {
-                h += 1;
-                g = v * h;
-                answer = (int)(time);
+                answer ++;
+                h = v * answer;
+                g = Math.Sqrt(2*R*h+h*h);
             }
             // end
 
@@ -130,6 +130,7 @@
         }
     }
     }
+
 
 
 
