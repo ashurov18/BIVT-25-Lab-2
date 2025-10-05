@@ -103,7 +103,7 @@
             int answer = 0;
 
             // code here
-            int sum = 0
+            int sum = 0;
             while (sum <= n)
             {
                 answer++;
@@ -133,6 +133,7 @@
         }
     }
     }
+
 
 
 
