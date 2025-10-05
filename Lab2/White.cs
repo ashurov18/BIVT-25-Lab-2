@@ -120,9 +120,9 @@
             double g = 0;
             while (g < L)
             {
-                h +=0.01;
+                h += 1;
                 g = v * h;
-                answer = h * 100;
+                answer = (int)(time);
             }
             // end
 
@@ -130,6 +130,7 @@
         }
     }
     }
+
 
 
 
