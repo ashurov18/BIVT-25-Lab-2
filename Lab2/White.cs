@@ -125,7 +125,7 @@
             {
                 answer ++;
                 h = v * answer;
-                g = Math.Sqrt(2^R*h+h*h);
+                g = Math.Sqrt(2*R*h+h*h);
             }
             // end
 
@@ -133,6 +133,7 @@
         }
     }
     }
+
 
 
 
