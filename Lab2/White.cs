@@ -32,10 +32,9 @@
         }
         public long Task3(int n)
         {
-            long answer = 0;
+            long answer = 1;
 
             // code here
-            answer = 1;
             for (int i = 0; i<=n;  i++)
             {
                 answer *= i;
@@ -46,10 +45,9 @@
         }
         public long Task4(int a, int b)
         {
-            long answer = 0;
+            long answer = 1;
 
             // code here
-            answer = 1;
             for (int i=0; i<b;i++)
             {
                 answer *=0;
@@ -61,7 +59,6 @@
         public int Task5(int L)
         {
             int answer = 0;
-
             // code here
             long p=1;
             int n=1;
@@ -133,6 +130,7 @@
         }
     }
     }
+
 
 
 
