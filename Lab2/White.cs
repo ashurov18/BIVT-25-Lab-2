@@ -50,7 +50,7 @@
             // code here
             for (int i=0; i<b;i++)
             {
-                answer *=0;
+                answer *=i;
             }
             // end
 
@@ -84,7 +84,7 @@
             double s = 1e-4;
             double t = 1;
             int n = 0;
-            while (t>=s)
+            while (Math.Abs(t)>=s)
             {
                 answer += t;
                 n++;
@@ -98,10 +98,9 @@
         public int Task7(int n)
         {
             int answer = 0;
-
+            int sum = 0
             // code here
-            int sum = 0;
-            while (sum <= n)
+            while (sum <= 0)
             {
                 answer++;
                 sum +=answer;
@@ -130,6 +129,7 @@
         }
     }
     }
+
 
 
 
