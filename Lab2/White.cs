@@ -35,6 +35,7 @@
             long answer = 0;
 
             // code here
+            answer = 1;
             for (int i = 0; i<=n;  i++)
             {
                 answer *= i;
@@ -48,6 +49,7 @@
             long answer = 0;
 
             // code here
+            answer = 1;
             for (int i=0; i<b;i++)
             {
                 answer *=0;
@@ -101,10 +103,11 @@
             int answer = 0;
 
             // code here
-            while (n > 0)
+            int sum = 0
+            while (sum <= n)
             {
                 answer++;
-                n -=answer;
+                sum +=answer;
             }
             // end
 
@@ -122,7 +125,7 @@
             {
                 answer ++;
                 h = v * answer;
-                g = Math.Sqrt(2*R*h+h*h);
+                g = Math.Sqrt(2^R*h+h*h);
             }
             // end
 
@@ -130,6 +133,7 @@
         }
     }
     }
+
 
 
 
